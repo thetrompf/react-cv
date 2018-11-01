@@ -6,7 +6,7 @@ export const Header = styled.header`
     align-items: flex-end;
     background-color: lightblue;
     display: flex;
-    height: 200px;
+    min-height: 160px;
     justify-content: flex-end;
 
     h1 {

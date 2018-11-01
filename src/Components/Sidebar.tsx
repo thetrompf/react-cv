@@ -65,13 +65,8 @@ export const Sidebar: React.SFC = () => {
         <Layout isOpen={isOpen} onClick={handleClick}>
             <Menu>
                 <MenuItem>
-                    <NavLink to="/base-info" title={useTranslation('Sidebar.BaseInfo.title')}>
-                        <Icon name="id-card-o" /> <span>{useTranslation('Sidebar.BaseInfo.text')}</span>
-                    </NavLink>
-                </MenuItem>
-                <MenuItem>
-                    <NavLink to="/education" title={useTranslation('Sidebar.Education.title')}>
-                        <Icon name="graduation-cap" /> <span>{useTranslation('Sidebar.Education.text')}</span>
+                    <NavLink to="/experience" title={useTranslation('Sidebar.Experience.title')}>
+                        <Icon name="tachometer" /> <span>{useTranslation('Sidebar.Experience.text')}</span>
                     </NavLink>
                 </MenuItem>
                 <MenuItem>
@@ -80,8 +75,8 @@ export const Sidebar: React.SFC = () => {
                     </NavLink>
                 </MenuItem>
                 <MenuItem>
-                    <NavLink to="/experience" title={useTranslation('Sidebar.Experience.title')}>
-                        <Icon name="tachometer" /> <span>{useTranslation('Sidebar.Experience.text')}</span>
+                    <NavLink to="/education" title={useTranslation('Sidebar.Education.title')}>
+                        <Icon name="graduation-cap" /> <span>{useTranslation('Sidebar.Education.text')}</span>
                     </NavLink>
                 </MenuItem>
                 <MenuItem>

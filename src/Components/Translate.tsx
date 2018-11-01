@@ -4,7 +4,7 @@ import da_DK from '../i18n/da_DK';
 import en_GB from '../i18n/en_GB';
 import { assertNever } from '../Util';
 
-type I18nKey = keyof typeof da_DK | keyof typeof en_GB;
+export type I18nKey = keyof typeof da_DK | keyof typeof en_GB;
 
 export function translate(i18nKey: I18nKey, locale: Locale): string {
     switch (locale) {
